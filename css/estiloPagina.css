@@ -1,0 +1,94 @@
+/* div{
+  border: 1px solid black;
+} */
+/* #card-artist{
+    margin-top: 12px;
+    margin-left: 10px;
+
+}
+#img_sobreNos{
+    float: right;
+  width: 30%;
+  
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+    font-size: smaller;
+  text-indent: 0;
+} */
+.card-img-top{
+  width: auto;
+  height: 300px;
+ }
+
+.bd-placeholder{
+  border-block-end: 0vmax;
+  border: black;
+}
+.bd-placeholder-img{
+  margin-right: 20px;
+}
+#topo1{
+  align-items: center;
+}
+#faca_parte{
+  margin-top: 4%;
+}
+#compartilhe{
+  margin-top: 4%;
+ 
+}
+#final{
+  margin-top: 4%;
+}
+#img-principal{
+    width: 100%;
+    height: auto;
+}
+
+/* .card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+} */
+.bk_img{
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 800px) {
+      .row{
+        display : grid;
+        grid-template-columns:repeat(1,1fr); 
+      }
+      #img-principal {
+        width: 100%;
+        height: auto;
+      }
+      .card-img-top{
+        width:100%;
+        height: auto;
+      }
+      #icones{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        grid-row-gap: 30px;
+      }
+      #icones2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        grid-row-gap: 30px;
+      }
+
+}
+#topo-config{
+  width: 100%;
+}
+#img-principal{
+  width: 100%;
+  height: auto;
+}

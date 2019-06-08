@@ -1,0 +1,9 @@
+#topo-config{
+    background-image: url(../img/heroisDeVerdade.jpg) ;
+    background-size: 100% 700px ;
+    opacity:0.8;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    
+}
